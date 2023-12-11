@@ -1,0 +1,40 @@
+.TH GERAR-SENHA 1 gerar-senha
+.SH NOME
+gerar-senha \- um gerador de senhas de linha de comando
+.SH SINOPSE
+.B gerar-senha
+[
+.I OPÇÕES
+]
+.SH DESCRIÇÃO
+.B gerar-senha
+é um gerador de senhas de linha de comando simples escrito em C.
+Por padrão, ao executar o programa é impressa na saída padrão uma senha
+aleatória de 16 caracteres, que pode incluir letras maiúsculas, minúsculas,
+números e símbolos.
+.SH OPÇÕES
+.TP
+.B \-h
+imprime a lista de opções e sai.
+.TP
+.B \-M
+desabilita as letras maiúsculas.
+.TP
+.B \-m
+desabilita as letras minúsculas.
+.TP
+.B \-n
+desabilita os números.
+.TP
+.BR \-q " <quantidade>"
+define a <quantidade> de senhas a serem geradas.
+.TP
+.B \-s
+desabilita os símbolos.
+.TP
+.BR \-t " <tamanho>"
+define o <tamanho> da(s) senha(s).
+.SH AUTOR
+Escrito por Lucas Melo Sanginetto <lucamsanginetto@outlook.com> em 2023.
+.SH LICENÇA
+Unlicense
